@@ -44,11 +44,10 @@ body {
 
 .menu_submenu {
   width: inherit;
-  height: 150px;
+  height: 120px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-top: 50px;
 }
 
 .menu_kichen {
@@ -58,6 +57,7 @@ body {
 .menu_bar {
   background-image: url('../img/main_page/IMG_5402.JPG');
   background-position: 0px -180px;
+  margin-bottom: 30px;
 }
 
 .menu_categories_kichen {
@@ -155,10 +155,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px 0px;
 }
 
 .menu_title {
-  font-size: 36px;
+  font-size: 30px;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
