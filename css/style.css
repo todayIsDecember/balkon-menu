@@ -1,0 +1,166 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+}
+
+.menu_submenu {
+  width: inherit;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.menu_kichen {
+  background-image: url('../img/main_page/photo_2022-10-30_22-18-54.jpg');
+}
+
+.menu_bar {
+  background-image: url('../img/main_page/IMG_5402.JPG');
+  background-position: 0px -180px;
+}
+
+.menu_categories_kichen {
+  display: none;
+  opacity: 0;
+}
+
+.menu_categories_bar {
+  display: none;
+  opacity: 0;
+}
+
+.active {
+  display: block;
+  animation: showCategories;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: .1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showCategories {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.menu_first {
+  background-image: url('../img/first_eat/photo_2022-10-30_22-05-21.jpg');
+}
+
+.menu_salats {
+  background-image: url('../img/salats/photo_2022-10-30_22-05-36.jpg');
+}
+
+.menu_bruskets {
+  background-image: url('../img/bruscet/IMG_0580.JPG');
+}
+
+.menu_cold_appetizers {
+  background-image: url('../img/cold_appetizers/photo_2022-10-30_22-05-28\ \(2\).jpg');
+}
+
+.menu_hot_appetizers {
+  background-image: url('../img/hot_appetizers/IMG_5081.JPG');
+}
+
+.menu_odesa-delicateses {
+  background-image: url('../img/main/photo_2022-10-30_22-05-27.jpg');
+}
+
+.menu_main {
+  background-image: url('../img/main/IMG_5057.JPG');
+}
+
+.menu_burgers {
+  background-image: url('../img/burgers/IMG_4747.JPG');
+}
+
+.menu_for-companies {
+  background-image: url('../img/for_companies/IMG_0567.JPG');
+}
+
+.menu_deserts {
+  background-image: url('../img/deserts/IMG_4738.JPG');
+}
+
+.menu_coffe {
+  background-image: url('../img/bar/photo_2022-10-30_22-05-15\ \(2\).jpg');
+  background-position: 0px -85px;
+}
+
+.menu_tia {
+  background-image: url('../img/bar/photo_2022-10-30_22-05-19.jpg');
+}
+
+.menu_not-alcohol {
+  background-image: url('../img/bar/Pepsi-scaled.jpg');
+}
+
+.menu_alcohol {
+  background-image: url('../img/bar/jameson.jpg');
+}
+
+.menu_alcohol-coctails {
+  background-image: url('../img/bar/photo_2022-10-30_22-05-16\ \(2\).jpg');
+}
+
+.menu_background {
+  background-color: rgba(14, 35, 131, 0.466);
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_title {
+  font-size: 36px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
