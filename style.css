@@ -37,6 +37,11 @@ body {
   line-height: 1;
 }
 
+.container {
+  max-width: 1170px;
+  padding: 15px;
+}
+
 .menu {
   width: 100%;
   height: auto;
@@ -48,7 +53,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-top: 50px;
 }
 
 .menu_kichen {
@@ -58,14 +62,10 @@ body {
 .menu_bar {
   background-image: url('../img/main_page/IMG_5402.JPG');
   background-position: 0px -180px;
+  margin-bottom: 30px;
 }
 
-.menu_categories_kichen {
-  display: none;
-  opacity: 0;
-}
-
-.menu_categories_bar {
+.menu_categories {
   display: none;
   opacity: 0;
 }
@@ -93,7 +93,7 @@ body {
 }
 
 .menu_salats {
-  background-image: url('../img/salats/photo_2022-10-30_22-05-36.jpg');
+  background-image: url('../img/salats/1.jpg');
 }
 
 .menu_bruskets {
@@ -155,6 +155,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px 0px;
 }
 
 .menu_title {
@@ -163,4 +164,45 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
+}
+
+.menu_categories_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_categories_item {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.menu_categories_item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.menu_item_img {
+  width: 85px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.menu_item_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu_item_title {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.menu_item_description {
+  color: grey;
+  font-size: 12px;
+}
+
+.menu_item_price {
+  font-size: 12px;
 }
