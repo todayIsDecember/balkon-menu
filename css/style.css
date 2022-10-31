@@ -93,7 +93,7 @@ body {
 }
 
 .menu_salats {
-  background-image: url('../img/salats/photo_2022-10-30_22-05-36.jpg');
+  background-image: url('../img/salats/1.jpg');
 }
 
 .menu_bruskets {
@@ -182,7 +182,7 @@ body {
 }
 
 .menu_item_img {
-  width: 60px;
+  width: 85px;
   border-radius: 10px;
   margin-right: 10px;
 }
