@@ -105,7 +105,7 @@ body {
 }
 
 .menu_hot_appetizers {
-  background-image: url('../img/hot_appetizers/IMG_5081.JPG');
+  background-image: url('../img/hot_appetizers/photo_2022-10-30_22-05-25\ \(2\).jpg');
 }
 
 .menu_odesa-delicateses {
@@ -195,12 +195,12 @@ body {
 
 .menu_item_title {
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .menu_item_description {
   color: grey;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .menu_item_price {
