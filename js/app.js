@@ -56,4 +56,4 @@ menu_categories_kichen.addEventListener('click', (e) => {
   }
 });
 
-setTimeout(() => {header_text.classList.add('active_title')}, 500);
+setTimeout(() => {header_text.classList.add('active_title')}, 700);
