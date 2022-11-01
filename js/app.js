@@ -15,6 +15,7 @@ const menu_burgers_categories = document.querySelector('.menu_burgers_categories
 const menu_garnirs_categories = document.querySelector('.menu_garnirs_categories');
 const menu_companies_categories = document.querySelector('.menu_companies_categories');
 const menu_deserts_categories = document.querySelector('.menu_deserts_categories');
+const header_text = document.querySelector('.header_text');
 
 menu_kichen.addEventListener('click', onClickKichenHandler);
 
@@ -53,4 +54,6 @@ menu_categories_kichen.addEventListener('click', (e) => {
   }else if(parent.classList.contains('menu_deserts')) {
     menu_deserts_categories.classList.toggle('active');
   }
-})
+});
+
+setTimeout(() => {header_text.classList.add('active_title')}, 500);
