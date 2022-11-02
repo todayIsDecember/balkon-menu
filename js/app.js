@@ -16,6 +16,11 @@ const menu_garnirs_categories = document.querySelector('.menu_garnirs_categories
 const menu_companies_categories = document.querySelector('.menu_companies_categories');
 const menu_deserts_categories = document.querySelector('.menu_deserts_categories');
 const header_text = document.querySelector('.header_text');
+const menu_coffe_categories = document.querySelector('.menu_coffe_categories');
+const menu_tia_categories = document.querySelector('.menu_tia_categories');
+const menu_not_alcohol_categories = document.querySelector('.menu_not_alcohol_categories');
+const menu_alcohol_categories = document.querySelector('.menu_alcohol_categories');
+const menu_alcohol_coctails_categories = document.querySelector('.menu_alcohol_coctails_categories');
 
 menu_kichen.addEventListener('click', onClickKichenHandler);
 
@@ -57,3 +62,18 @@ menu_categories_kichen.addEventListener('click', (e) => {
 });
 
 setTimeout(() => {header_text.classList.add('active_title')}, 700);
+
+menu_categories_bar.addEventListener('click', (e) => {
+  let parent = e.target.closest('.menu_submenu');
+  if(parent.classList.contains('menu_coffe')) {
+    menu_coffe_categories.classList.toggle('active');
+  }else if(parent.classList.contains('menu_tia')) {
+    menu_tia_categories.classList.toggle('active');
+  }else if(parent.classList.contains('menu_not-alcohol')) {
+    menu_not_alcohol_categories.classList.toggle('active');
+  }else if(parent.classList.contains('menu_alcohol')) {
+    menu_alcohol_categories.classList.toggle('active');
+  }else if(parent.classList.contains('menu_alcohol-coctails')) {
+    menu_alcohol_coctails_categories.classList.toggle('active');
+  }
+})
