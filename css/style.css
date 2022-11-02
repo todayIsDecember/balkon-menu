@@ -75,12 +75,12 @@ body {
   top: 10px;
   opacity: 0;
   background-color: #000;
-  width: 100px; /* поддерживаются любые единицы, в том числе проценты */
+  width: 80px; /* поддерживаются любые единицы, в том числе проценты */
   margin: 1em auto;
   background: #000;
   border-radius: 50%;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .header_text::before {
@@ -190,6 +190,10 @@ body {
 
 .menu_bruskets {
   background-image: url('../img/bruscet/IMG_0580.JPG');
+}
+
+.menu_garnirs {
+  background-image: url('../img/garnirs/dipi_cheder.jpg');
 }
 
 .menu_cold_appetizers {
