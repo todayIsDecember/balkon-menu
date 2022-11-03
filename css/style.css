@@ -39,6 +39,7 @@ body {
   /* background-color: rgb(168, 167, 167); */
   background-position: center;
   background-size: cover;
+  padding-bottom: 50px;
 }
 
 .container {
@@ -126,7 +127,7 @@ body {
 }
 
 .contacts_text {
-  color: grey;
+  color: grey !important;
 }
 
 .menu {
@@ -154,7 +155,6 @@ body {
 .menu_bar {
   background-image: url('../img/main_page/IMG_5402.JPG');
   background-position: 0px -180px;
-  margin-bottom: 30px;
 }
 
 .menu_categories {
@@ -281,7 +281,8 @@ body {
 
 .menu_item_img {
   width: 110px;
-  height: auto;
+  background-position: center;
+  background-size: cover;
   border-radius: 10px;
   margin-right: 10px;
   box-shadow: -4px 3px 12px black;
