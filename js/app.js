@@ -22,6 +22,14 @@ const menu_not_alcohol_categories = document.querySelector('.menu_not_alcohol_ca
 const menu_alcohol_categories = document.querySelector('.menu_alcohol_categories');
 const menu_alcohol_coctails_categories = document.querySelector('.menu_alcohol_coctails_categories');
 
+window.onload = function () {
+  document.body.classList.add('loaded_hiding');
+  window.setTimeout(() => {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+  }, 500);
+};
+
 menu_kichen.addEventListener('click', onClickKichenHandler);
 
 function onClickKichenHandler() {
