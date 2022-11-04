@@ -132,10 +132,11 @@ body {
 
 .menu {
   width: 100%;
-  height: auto;
+  min-height: 100%;
   padding: 0px 15px;
   position: relative;
   top: 120px;
+  padding-bottom: 15px;
 }
 
 .menu_submenu {
@@ -280,12 +281,245 @@ body {
 }
 
 .menu_item_img {
-  width: 110px;
+  min-width: 100px;
+  height: 100px;
   background-position: center;
   background-size: cover;
   border-radius: 10px;
   margin-right: 10px;
   box-shadow: -4px 3px 12px black;
+}
+
+.salat1 {
+  background-image: url('../img/salats/1.jpg');
+}
+
+.salat2 {
+  background-image: url('../img/salats/2.jpg');
+}
+
+.salat3 {
+  background-image: url('../img/salats/3.jpg');
+}
+
+.salat4 {
+  background-image: url('../img/salats/4.jpg');
+}
+
+.salat5 {
+  background-image: url('../img/salats/5.jpg');
+}
+
+.salat6 {
+  background-image: url('../img/salats/6.jpg');
+}
+
+.salat7 {
+  background-image: url('../img/salats/7.jpg');
+}
+
+.salat8 {
+  background-image: url('../img/salats/8.jpg');
+}
+
+.first1 {
+  background-image: url('../img/first_eat/photo_2022-10-30_22-05-21.jpg');
+}
+
+.first2 {
+  background-image: url('../img/first_eat/IMG_1368.JPG');
+}
+
+.first3 {
+  background-image: url('../img/first_eat/photo_2022-10-30_22-05-32\ \(2\).jpg');
+}
+
+.first4 {
+  background-image: url('../img/first_eat/gribniy.jpg');
+}
+
+.bruskets1 {
+  background-image: url('../img/bruscet/IMG_0580.JPG');
+}
+
+.bruskets2 {
+  background-image: url('../img/bruscet/photo_2022-10-31_02-48-57.jpg');
+}
+
+.bruskets3 {
+  background-image: url('../img/bruscet/photo_2022-10-30_22-05-26.jpg');
+}
+
+.cold_appetizers1 {
+  background-image: url('../img/cold_appetizers/kamamber.jpg');
+}
+
+.cold_appetizers2 {
+  background-image: url('../img/cold_appetizers/tartar.jpg');
+}
+
+.cold_appetizers3 {
+  background-image: url('../img/for_companies/IMG_0567.JPG');
+}
+
+.cold_appetizers4 {
+  background-image: url('../img/cold_appetizers/photo_2022-10-30_22-05-28\ \(2\).jpg');
+}
+
+.cold_appetizers5 {
+  background-image: url('../img/cold_appetizers/photo_2022-10-31_03-01-47.jpg');
+}
+
+.cold_appetizers6 {
+  background-image: url('../img/cold_appetizers/photo_2022-10-31_03-01-48.jpg');
+}
+
+.cold_appetizers7 {
+  background-image: url('../img/hot_appetizers/IMG_5081.JPG');
+}
+
+.cold_appetizers8 {
+  background-image: url('../img/cold_appetizers/IMG_4427.JPG');
+}
+
+.hot1 {
+  background-image: url('../img/hot_appetizers/photo_2022-10-30_22-05-25\ \(2\).jpg');
+}
+
+.hot2 {
+  background-image: url('../img/hot_appetizers/photo_2022-10-31_03-16-48.jpg');
+}
+
+.hot3 {
+  background-image: url('../img/hot_appetizers/photo_2022-10-31_03-16-48\ \(2\).jpg');
+}
+
+.odesa1 {
+  background-image: url('../img/main/barabulya.jpg');
+}
+
+.odesa2 {
+  background-image: url('../img/images.png');
+}
+
+.odesa3 {
+  background-image: url('../img/main/photo_2022-10-30_22-05-27.jpg');
+}
+
+.odesa4 {
+  background-image: url('../img/main/IMG_2138.JPG');
+}
+
+.odesa5 {
+  background-image: url('../img/main/IMG_5053.JPG');
+}
+
+.odesa6 {
+  background-image: url('../img/main/tigrovi_krevetki.jpg');
+}
+
+.odesa7 {
+  background-image: url('../img/images.png');
+}
+
+.odesa8 {
+  background-image: url('../img/main/photo_2022-10-30_22-05-35.jpg');
+}
+
+.odesa9 {
+  background-image: url('../img/main/photo_2022-10-30_22-05-36\ \(2\).jpg');
+}
+
+.main1 {
+  background-image: url('../img/main/svinina.jpg');
+}
+
+.main2 {
+  background-image: url('../img/main/photo_2022-10-30_22-05-38.jpg');
+}
+
+.main3 {
+  background-image: url('../img/main/IMG_5057.JPG');
+}
+
+.main4 {
+  background-image: url('../img/main/kurka.jpg');
+}
+
+.main5 {
+  background-image: url('../img/images.png');
+}
+
+.main6 {
+  background-image: url('../img/images.png');
+}
+
+.main7 {
+  background-image: url('../img/main/rebra.jpg');
+}
+
+.main8 {
+  background-image: url('../img/images.png');
+}
+
+.burger1 {
+  background-image: url('../img/burgers/IMG_4756.JPG');
+}
+
+.burger2 {
+  background-image: url('../img/burgers/IMG_4743.JPG');
+}
+
+.burger3 {
+  background-image: url('../img/burgers/IMG_4747.JPG');
+}
+
+.burger4 {
+  background-image: url('../img/images.png');
+}
+
+.garnirs1 {
+  background-image: url('../img/garnirs/dipi_cheder.jpg');
+}
+
+.garnirs2 {
+  background-image: url('../img/garnirs/dipi2.jpg');
+}
+
+.garnirs3 {
+  background-image: url('../img/images.png');
+}
+
+.garnirs4 {
+  background-image: url('../img/images.png');
+}
+
+.companies1 {
+  background-image: url('../img/for_companies/photo_2022-10-30_22-05-20.jpg');
+}
+
+.companies2 {
+  background-image: url('../img/for_companies/sitiy_hlop.JPG');
+}
+
+.companies3 {
+  background-image: url('../img/for_companies/IMG_0591.JPG');
+}
+
+.desert1 {
+  background-image: url('../img/deserts/IMG_4738.JPG');
+}
+
+.desert2 {
+  background-image: url('../img/deserts/IMG_5083.JPG');
+}
+
+.desert3 {
+  background-image: url('../img/deserts/4.jpg');
+}
+
+.desert4 {
+  background-image: url('../img/deserts/3.jpg');
 }
 
 .menu_item_info {
