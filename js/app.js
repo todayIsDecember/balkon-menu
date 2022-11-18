@@ -21,6 +21,7 @@ const menu_tia_categories = document.querySelector('.menu_tia_categories');
 const menu_not_alcohol_categories = document.querySelector('.menu_not_alcohol_categories');
 const menu_alcohol_categories = document.querySelector('.menu_alcohol_categories');
 const menu_alcohol_coctails_categories = document.querySelector('.menu_alcohol_coctails_categories');
+const menu_snidanok_categories = document.querySelector('.menu_snidanok_categories');
 
 window.onload = function () {
   document.body.classList.add('loaded_hiding');
@@ -66,6 +67,8 @@ menu_categories_kichen.addEventListener('click', (e) => {
     menu_companies_categories.classList.toggle('active');
   }else if(parent.classList.contains('menu_deserts')) {
     menu_deserts_categories.classList.toggle('active');
+  }else if(parent.classList.contains('menu_snidanok')) {
+    menu_snidanok_categories.classList.toggle('active');
   }
 });
 

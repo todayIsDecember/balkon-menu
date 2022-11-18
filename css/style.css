@@ -193,15 +193,18 @@ body {
 
 .contacts_text {
   color: grey !important;
+  font-size: 12px;
 }
 
 .menu {
+  position: relative;
   width: 100%;
   min-height: 100%;
   padding: 0px 15px;
   position: relative;
   top: 120px;
-  padding-bottom: 15px;
+  padding-bottom: 150px;
+  border-bottom-left-radius: 10px;
 }
 
 .menu_submenu {
@@ -244,6 +247,10 @@ body {
   to {
     opacity: 1;
   }
+}
+
+.menu_snidanok {
+  background-image: url('../img/snidanok.jpg');
 }
 
 .menu_first {
@@ -355,6 +362,15 @@ body {
   box-shadow: -4px 3px 12px black;
 }
 
+.menu_categories_item_snidanok {
+  display: flex;
+  flex-direction: column;
+}
+
+.snidanok {
+  background-image: url('../img/snidanok.jpg');
+}
+
 .salat1 {
   background-image: url('../img/salats/1.jpg');
 }
@@ -385,6 +401,10 @@ body {
 
 .salat8 {
   background-image: url('../img/salats/8.jpg');
+}
+
+.salat9 {
+  background-image: url('../img/salats/olive.JPG');
 }
 
 .first1 {
@@ -464,7 +484,7 @@ body {
 }
 
 .odesa2 {
-  background-image: url('../img/images.png');
+  background-image: url('../img/not_photo.jpg');
 }
 
 .odesa3 {
@@ -484,7 +504,7 @@ body {
 }
 
 .odesa7 {
-  background-image: url('../img/images.png');
+  background-image: url('../img/not_photo.jpg');
 }
 
 .odesa8 {
@@ -512,11 +532,11 @@ body {
 }
 
 .main5 {
-  background-image: url('../img/images.png');
+  background-image: url('../img/not_photo.jpg');
 }
 
 .main6 {
-  background-image: url('../img/images.png');
+  background-image: url('../img/not_photo.jpg');
 }
 
 .main7 {
@@ -524,7 +544,7 @@ body {
 }
 
 .main8 {
-  background-image: url('../img/images.png');
+  background-image: url('../img/not_photo.jpg');
 }
 
 .burger1 {
@@ -540,7 +560,7 @@ body {
 }
 
 .burger4 {
-  background-image: url('../img/images.png');
+  background-image: url('../img/not_photo.jpg');
 }
 
 .garnirs1 {
@@ -552,11 +572,11 @@ body {
 }
 
 .garnirs3 {
-  background-image: url('../img/images.png');
+  background-image: url('../img/not_photo.jpg');
 }
 
 .garnirs4 {
-  background-image: url('../img/images.png');
+  background-image: url('../img/not_photo.jpg');
 }
 
 .companies1 {
